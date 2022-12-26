@@ -91,6 +91,30 @@ a {
   border-color: #2980b9 transparent;
 }
 
+#wheel .sec:nth-child(3) {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  border-color: #34495e transparent;
+}
+
+#wheel .sec:nth-child(4) {
+  -webkit-transform: rotate(240deg);
+          transform: rotate(240deg);
+  border-color: #f39c12 transparent;
+}
+
+#wheel .sec:nth-child(5) {
+  -webkit-transform: rotate(300deg);
+          transform: rotate(300deg);
+  border-color: #d35400 transparent;
+}
+
+#wheel .sec:nth-child(6) {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  border-color: #c0392b transparent;
+}
+
 #inner-wheel {
   width: 100%;
   height: 100%;

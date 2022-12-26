@@ -71,9 +71,30 @@ a{
             transform: rotate(60deg);
             border-color: #16a085 transparent;
         }
+
         &:nth-child(2){
             transform: rotate(120deg);
             border-color: #2980b9 transparent;
+        }
+
+        &:nth-child(3){
+            transform: rotate(180deg);
+            border-color: #34495e transparent;
+        }
+
+        &:nth-child(4){
+            transform: rotate(240deg);
+            border-color: #f39c12 transparent;
+        }
+
+        &:nth-child(5){
+            transform: rotate(300deg);
+            border-color: #d35400 transparent;
+        }
+
+        &:nth-child(6){
+            transform: rotate(360deg);
+            border-color: #c0392b transparent;
         }
     }
 }
