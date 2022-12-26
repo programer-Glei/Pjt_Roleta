@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #eaeaea;
+  color: #fff;
+  font-size: 1.8rem;
+  font-family: "Exo 2", sans-serif;
+  height: 100vh;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+a {
+  color: #34495e;
+}
+
+#wrapper {
+  width: 26.6rem;
+  position: relative;
+}
+
+#txt {
+  color: #eaeaea;
+}
+
+#wheel {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.8rem solid #fff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px, rgba(0, 0, 0, 0.05) 0px 3px 0px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px, rgba(0, 0, 0, 0.05) 0px 3px 0px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+#wheel::before {
+  content: '';
+  position: absolute;
+  border: 0.4rem solid rgba(0, 0, 0, 0.1);
+  width: 24.2rem;
+  height: 24.2rem;
+  border-radius: 50%;
+  z-index: 100;
+}
+/*# sourceMappingURL=estilo.css.map */
