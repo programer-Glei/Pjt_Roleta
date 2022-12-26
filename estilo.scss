@@ -54,4 +54,32 @@ a{
         border-radius: 50%;
         z-index: 100;
     }
+
+    .sec{
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 13rem 7.5rem 0;
+        border-color: #19c transparent;
+        transform-origin: 7.5rem 12.9rem;
+        left: 5rem;
+        top: -0.4rem;
+        opacity: 1;
+
+        &:nth-child(1){
+            transform: rotate(60deg);
+            border-color: #16a085 transparent;
+        }
+        &:nth-child(2){
+            transform: rotate(120deg);
+            border-color: #2980b9 transparent;
+        }
+    }
+}
+
+#inner-wheel{
+    width: 100%;
+    height: 100%;
+    transition: all 6s cubic-bezier(0, .99, .44, .99);
 }

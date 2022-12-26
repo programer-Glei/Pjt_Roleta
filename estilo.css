@@ -64,4 +64,37 @@ a {
   border-radius: 50%;
   z-index: 100;
 }
+
+#wheel .sec {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 13rem 7.5rem 0;
+  border-color: #19c transparent;
+  -webkit-transform-origin: 7.5rem 12.9rem;
+          transform-origin: 7.5rem 12.9rem;
+  left: 5rem;
+  top: -0.4rem;
+  opacity: 1;
+}
+
+#wheel .sec:nth-child(1) {
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+  border-color: #16a085 transparent;
+}
+
+#wheel .sec:nth-child(2) {
+  -webkit-transform: rotate(120deg);
+          transform: rotate(120deg);
+  border-color: #2980b9 transparent;
+}
+
+#inner-wheel {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 6s cubic-bezier(0, 0.99, 0.44, 0.99);
+  transition: all 6s cubic-bezier(0, 0.99, 0.44, 0.99);
+}
 /*# sourceMappingURL=estilo.css.map */
